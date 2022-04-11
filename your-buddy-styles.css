@@ -1,0 +1,32 @@
+.profile-details-left{
+  width: 300px;
+}
+
+#profile-details-photo-left{
+  width: 300px;
+}
+
+.event-details-right{
+  width: 250px;
+  padding-left: 24px;
+  padding-top: 24px;
+}
+
+#event-details-photo-right{
+  width: 250px;
+  order: 1;
+}
+
+.event-details-left{
+  order: 2;
+}
+
+@media only screen and (max-width: 600px){
+  .event-details-right{
+    padding-left: 0;
+  }
+
+  #prototype{
+    display: none;
+  }
+}

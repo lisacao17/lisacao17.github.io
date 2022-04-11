@@ -1,0 +1,56 @@
+#rbc-split{
+  width: 70%;
+}
+
+#smaller-img{
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
+#rbc-logo{
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
+#persona{
+  padding-bottom: 24px;
+}
+
+#rbc-split{
+  padding-top: 24px;
+  margin: auto;
+  display: block;
+}
+
+#design-left{
+  width: 200px;
+}
+
+#screen-split{
+  width: 200px;
+  padding-top: 24px;
+}
+
+#text-screen-split{
+  padding-left: 100px;
+}
+
+#slack-quote{
+  width: 80%;
+  margin: auto;
+  display: block;
+  padding-bottom: 0;
+}
+
+@media only screen and (max-width: 600px){
+  #rbc-logo{
+    width: 80%;
+  }
+
+  #text-screen-split{
+    padding-left: 0;
+  }
+
+}
