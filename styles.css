@@ -374,6 +374,7 @@ footer h3{
     width: 100%;
   }
 
+  /*
   .navbar-links{
     display: none;
     width: 100%;
@@ -402,6 +403,7 @@ footer h3{
   .navbar-links.active{
     display: flex;
   }
+  */
 
   footer{
     flex-direction: column;
