@@ -16,9 +16,6 @@
   width: 250px;
 }
 
-.event-details-left{
-}
-
 @media only screen and (max-width: 600px){
   .event-details-right{
     padding-left: 0;
