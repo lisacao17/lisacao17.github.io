@@ -96,7 +96,6 @@ header .switch{
   padding-bottom: 12px;
 }
 
-
 .navbar-links ul{
   margin: 0;
   padding: 0;
@@ -118,6 +117,7 @@ header .switch{
   color: #0C52E0;
 }
 
+/*
 .toggle-button{
   position: absolute;
   top: 30px;
@@ -135,6 +135,7 @@ header .switch{
   background-color: #FCADCE;
   border-radius: 10px;
 }
+*/
 
 .blue-semi-bold{
   color: #0C52E0;
