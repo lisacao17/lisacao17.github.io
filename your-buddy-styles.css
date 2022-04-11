@@ -14,11 +14,9 @@
 
 #event-details-photo-right{
   width: 250px;
-  order: 1;
 }
 
 .event-details-left{
-  order: 2;
 }
 
 @media only screen and (max-width: 600px){
@@ -29,4 +27,14 @@
   #prototype{
     display: none;
   }
+
+  #event-details-photo-right{
+    width: 250px;
+    order: 1;
+  }
+
+  .event-details-left{
+    order: 2;
+  }
+
 }
