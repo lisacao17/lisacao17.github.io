@@ -50,17 +50,14 @@
     width: 70%;
   }
 
-  .photos{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-    padding-top: 40px;
-    padding-bottom: 60px;
+  .photo-row{
+    padding-top: 0;
+    display: flex;
+    padding-bottom: 40px;
   }
 
-  .photos > div{
-    height: 200px;
-    border-radius: 30px;
-    background-size: cover;
+  .column{
+    width: 100%;
+    padding: 8px;
   }
 }
