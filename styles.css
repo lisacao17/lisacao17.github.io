@@ -471,12 +471,14 @@ footer h3{
   }
 
   .contact{
-    text-align: left;
+    align-items: flex-start;
   }
 
   .contact h3{
     display: none;
   }
+
+
 
 /* for medium devices*/
 @media only screen and (min-width: 600px) and (max-width: 1250px){
