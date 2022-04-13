@@ -14,39 +14,22 @@
   align-items: center;
 }
 
-.photos{
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 20px;
-  padding-top: 80px;
-  padding-bottom: 100px;
+.photo-row {
+  padding-top: 100px;
+  display: flex;
 }
 
-.photos > div{
-  height: 300px;
-  border-radius: 30px;
-  background-size: cover;
+.column {
+  flex: 25%;
+  padding: 24px;
+  transition: all .5s;
 }
 
-.photo1{
-  background: url('images/about-me/food/nomnom.JPG');
+.column:hover{
+  transform: scale(1.02);
+  transition: all .5s;
 }
 
-.photo2{
-  background: url('images/about-me/food/cake.JPG');
-}
-
-.photo3{
-  background: url('images/about-me/drawing.jpg');
-}
-
-.photo4{
-  background: url('images/about-me/bokchoy.png');
-}
-
-.photo5{
-  background: url('images/about-me/dancing.gif');
-}
 
 @media only screen and (max-width: 600px){
   .about-me-section{
@@ -79,9 +62,5 @@
     height: 200px;
     border-radius: 30px;
     background-size: cover;
-  }
-
-  .photo1{
-    display: none;
   }
 }

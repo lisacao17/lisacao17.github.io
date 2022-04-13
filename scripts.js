@@ -10,6 +10,7 @@ switchElement.addEventListener('click', () => {
   }
 })
 
+/*
 const toggleButton = document.getElementsByClassName('toggle-button')
 console.log("test");
 const navbarLinks = document.getElementsByClassName('navbar-links')
@@ -17,3 +18,4 @@ const navbarLinks = document.getElementsByClassName('navbar-links')
 toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
 })
+*/
