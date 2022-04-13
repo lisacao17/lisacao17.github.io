@@ -307,11 +307,12 @@ footer h3{
 .contact{
   padding-right: 150px;
   color: #0C52E0;
-  text-align: right;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
 }
 
 .contact a{
-  display: block;
   padding-bottom: 8px;
   font-weight: 400;
 }
