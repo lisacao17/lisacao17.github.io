@@ -525,4 +525,8 @@ footer h3{
   .contact{
     padding-right: 60px;
   }
+
+  .main-scroll{
+    padding-bottom: 0px;
+  }
 }
