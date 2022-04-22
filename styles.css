@@ -253,7 +253,7 @@ body{
 }
 
 .case-text{
-  padding-left: 100px;
+  padding-left: 120px;
 }
 
 .case-photo img{
@@ -343,7 +343,7 @@ footer h3{
 }
 
 /* for small devices*/
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 450px){
   .brand-title{
     padding-left: 25px;
   }
@@ -409,7 +409,7 @@ footer h3{
   }
 
   .case-photo img{
-    width: 100%;
+    width: 300px;
   }
 
   #cases{
@@ -477,13 +477,52 @@ footer h3{
   .contact h3{
     display: none;
   }
-
+}
 
 
 /* for medium devices*/
-@media only screen and (min-width: 600px) and (max-width: 1250px){
-}
+@media only screen and (min-width: 451px) and (max-width: 1280px){
+  .brand-title{
+    padding-left: 60px;
+    padding-top: 20px;
+  }
 
-/* for large devices*/
-@media only screen and (min-width: 1250px){
+  .navbar-links{
+    padding-right: 60px;
+    padding-top: 20px;
+  }
+
+  .page-container{
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .case-photo img{
+    width: 340px;
+  }
+
+  .case-text{
+    padding-left: 40px;
+  }
+
+  .case-text p{
+    width: 100%;
+    padding-bottom: 12px;
+  }
+
+  .case-text h4{
+    margin-bottom: 0px;
+  }
+
+  .case-text h3{
+    margin-top: 8px;
+  }
+
+  .thanks{
+    padding-left: 60px;
+  }
+
+  .contact{
+    padding-right: 60px;
+  }
 }
