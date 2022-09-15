@@ -66,6 +66,12 @@
   align-items: center;
 }
 
+.stadia-split-body-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .left{
   padding-right: 24px;
 }
@@ -90,7 +96,22 @@
   color: #FF76AC;
 }
 
+#component-collage{
+  padding-top: 12px;
+  border-radius: 30px;
+}
+
+#stadia-split{
+  padding-top: 24px;
+  margin: auto;
+  display: block;
+}
+
 @media only screen and (max-width: 700px){
+  #stadia-split{
+    width: 90%;
+  }
+
   .title-section{
     padding-top: 0px;
   }
