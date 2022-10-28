@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 body{
   transition: 0.3s;
@@ -16,11 +16,12 @@ h1{
 h2{
   font-size: 16px;
   font-weight: 400;
+  line-height: 28px;
 }
 
 h3{
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 32px;
 }
 
@@ -40,6 +41,7 @@ h6{
   font-weight: 600;
   color: #000;
   font-size: 14px;
+  line-height: 24px;
 }
 
 p{
@@ -50,6 +52,11 @@ p{
 a{
   font-weight: 500;
   color: #0C52E0;
+  font-size: 14px;
+}
+
+li{
+  line-height: 24px;
   font-size: 14px;
 }
 
